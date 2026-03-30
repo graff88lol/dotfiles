@@ -1,0 +1,140 @@
+#!/usr/bin/env fish
+
+# Colors for output
+set -g GREEN (set_color green)
+set -g RED (set_color red)
+set -g YELLOW (set_color yellow)
+set -g BLUE (set_color blue)
+set -g NC (set_color normal)
+
+# Get commit message from argument or use default
+if test (count $argv) -gt 0
+    set COMMIT_MESSAGE $argv[1]
+else
+    set COMMIT_MESSAGE "Update configs - "(date '+%Y-%m-%d %H:%M:%S')
+end
+
+echo ""
+echo "$BLUE╔═══════════════════════════════════════════════╗$NC"
+echo "$BLUE║     Pushing ~/.config & NixOS Configs        ║$NC"
+echo "$BLUE╚═══════════════════════════════════════════════╝$NC"
+echo ""
+echo "$YELLOW📝 Commit message: $COMMIT_MESSAGE$NC"
+echo ""
+
+# Function to check if there are changes
+function has_changes
+    set repo_path $argv[1]
+    cd $repo_path
+    set changes (git status --porcelain)
+    if test -n "$changes"
+        return 0
+    else
+        return 1
+    end
+end
+
+# Function to push repository
+function push_repo
+    set repo_path $argv[1]
+    set repo_name $argv[2]
+    
+    echo "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+    echo "$YELLOW📁 Repository: $repo_name$NC"
+    echo "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+    
+    # Check if directory exists
+    if not test -d $repo_path
+        echo "$RED❌ Directory not found: $repo_path$NC"
+        echo "$YELLOW💡 Creating directory and initializing git...$NC"
+        mkdir -p $repo_path
+        cd $repo_path
+        git init
+        echo "$GREEN✓ Created and initialized git repository$NC"
+    end
+    
+    # Check if it's a git repository
+    if not test -d $repo_path/.git
+        echo "$YELLOW📦 Initializing git repository...$NC"
+        cd $repo_path
+        git init
+    end
+    
+    # Change to directory
+    cd $repo_path
+    
+    # Check if there are changes
+    if not has_changes $repo_path
+        echo "$GREEN✓ No changes to commit$NC"
+        echo ""
+        return 0
+    end
+    
+    # Show changes
+    echo "$BLUE📊 Changes:$NC"
+    git status --short
+    echo ""
+    
+    # Add all changes
+    echo "$YELLOW📦 Adding changes...$NC"
+    git add .
+    
+    # Commit
+    echo "$YELLOW📝 Committing...$NC"
+    git commit -m "$COMMIT_MESSAGE"
+    
+    if test $status -ne 0
+        echo "$RED❌ Commit failed$NC"
+        echo ""
+        return 1
+    end
+    
+    # Get current branch
+    set current_branch (git branch --show-current)
+    if test -z "$current_branch"
+        set current_branch "main"
+        git branch -M main
+    end
+    echo "$BLUE🌿 Current branch: $current_branch$NC"
+    
+    # Check if remote exists
+    set remote_exists (git remote)
+    if test -z "$remote_exists"
+        echo "$YELLOW⚠️ No remote configured. Please add remote manually:$NC"
+        echo "   git remote add origin git@github.com:YOUR_USERNAME/REPO_NAME.git"
+        echo "$RED❌ Skipping push for $repo_name$NC"
+        echo ""
+        return 1
+    end
+    
+    # Push
+    echo "$YELLOW🚀 Pushing to remote...$NC"
+    git push origin $current_branch
+    
+    if test $status -eq 0
+        echo "$GREEN✅ Successfully pushed $repo_name$NC"
+    else
+        echo "$RED❌ Push failed for $repo_name$NC"
+        echo "$YELLOW💡 Try: git pull --rebase origin $current_branch$NC"
+        return 1
+    end
+    
+    echo ""
+    return 0
+end
+
+# Push ~/.config (as a repository)
+push_repo "$HOME/.config" "~/.config"
+
+# Push NixOS config
+push_repo "/etc/nixos" "NixOS Config"
+
+# Summary
+echo "$BLUE╔═══════════════════════════════════════════════╗$NC"
+echo "$BLUE║                  SUMMARY                      ║$NC"
+echo "$BLUE╚═══════════════════════════════════════════════╝$NC"
+echo "$GREEN✅ All repositories processed$NC"
+echo "$BLUE━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
+
+# Return to home directory
+cd ~

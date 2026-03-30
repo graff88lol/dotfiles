@@ -1,0 +1,7 @@
+2026/03/30-22:46:37.349 5 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/03/30-22:46:37.349 5 Recovering log #4
+2026/03/30-22:46:37.349 5 (ignoring error) /home/graff/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000004.log: dropping 44 bytes; Corruption: missing start of fragmented record(2)
+2026/03/30-22:46:37.349 5 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000004.log 
+2026/03/31-02:43:03.122 5 Level-0 table #8: started
+2026/03/31-02:43:03.220 5 Level-0 table #8: 10186 bytes OK
+2026/03/31-02:43:03.254 5 Delete type=0 #4
