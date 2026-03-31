@@ -5,3 +5,7 @@ git add .
 git commit -m "another commit"
 git push -f origin master
 
+cd /etc/nixos
+git add .
+git commit -m "another commit"
+git push -f origin master
