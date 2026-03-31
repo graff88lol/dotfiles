@@ -1,12 +1,12 @@
-2026/03/31-15:18:13.521 c92 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/31-15:18:13.521 c92 Recovering log #31
-2026/03/31-15:18:13.524 c92 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000031.log 
-2026/03/31-15:18:45.888 c90 Compacting 1@1 + 1@2 files
-2026/03/31-15:18:46.137 c90 Generated table #34@1: 198 keys, 901183 bytes
-2026/03/31-15:18:46.138 c90 Compacted 1@1 + 1@2 files => 901183 bytes
-2026/03/31-15:18:46.190 c90 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/31-15:18:46.190 c90 Delete type=2 #30
-2026/03/31-15:18:46.190 c90 Delete type=2 #32
-2026/03/31-15:20:33.285 c92 Level-0 table #36: started
-2026/03/31-15:20:33.581 c92 Level-0 table #36: 3232630 bytes OK
-2026/03/31-15:20:33.612 c92 Delete type=0 #31
+2026/03/31-17:53:40.678 d29 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/31-17:53:40.678 d29 Recovering log #35
+2026/03/31-17:53:40.789 d29 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000035.log 
+2026/03/31-17:53:43.553 d29 Compacting 1@1 + 1@2 files
+2026/03/31-17:53:43.786 d29 Generated table #38@1: 198 keys, 887203 bytes
+2026/03/31-17:53:43.786 d29 Compacted 1@1 + 1@2 files => 887203 bytes
+2026/03/31-17:53:43.846 d29 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/31-17:53:43.847 d29 Delete type=2 #34
+2026/03/31-17:53:43.847 d29 Delete type=2 #36
+2026/03/31-17:53:56.812 d20 Level-0 table #40: started
+2026/03/31-17:53:57.005 d20 Level-0 table #40: 2824512 bytes OK
+2026/03/31-17:53:57.087 d20 Delete type=0 #35

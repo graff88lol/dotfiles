@@ -1,15 +1,27 @@
-2026/03/31-15:17:19.318 c90 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
-2026/03/31-15:17:19.319 c90 Recovering log #4
-2026/03/31-15:17:19.320 c90 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/000004.log 
-2026/03/31-16:03:19.282 c92 Level-0 table #8: started
-2026/03/31-16:03:19.367 c92 Level-0 table #8: 784124 bytes OK
-2026/03/31-16:03:19.401 c92 Delete type=0 #4
-2026/03/31-16:09:19.306 c92 Compacting 1@1 + 1@2 files
-2026/03/31-16:09:19.397 c92 Generated table #9@1: 44 keys, 46084 bytes
-2026/03/31-16:09:19.397 c92 Compacted 1@1 + 1@2 files => 46084 bytes
-2026/03/31-16:09:19.432 c92 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/03/31-16:09:19.432 c92 Delete type=2 #8
-2026/03/31-16:09:19.432 c92 Delete type=2 #5
-2026/03/31-17:12:49.395 c92 Level-0 table #11: started
-2026/03/31-17:12:49.477 c92 Level-0 table #11: 744123 bytes OK
-2026/03/31-17:12:49.519 c92 Delete type=0 #7
+2026/03/31-17:53:23.014 d20 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
+2026/03/31-17:53:23.016 d20 Recovering log #10
+2026/03/31-17:53:23.063 d20 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/000010.log 
+2026/03/31-17:53:25.526 d2b Compacting 1@1 + 1@2 files
+2026/03/31-17:53:25.604 d2b Generated table #13@1: 44 keys, 48118 bytes
+2026/03/31-17:53:25.605 d2b Compacted 1@1 + 1@2 files => 48118 bytes
+2026/03/31-17:53:25.683 d2b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/31-17:53:25.683 d2b Delete type=2 #11
+2026/03/31-17:53:25.683 d2b Delete type=2 #9
+2026/03/31-18:40:53.243 d20 Level-0 table #15: started
+2026/03/31-18:40:53.393 d20 Level-0 table #15: 758705 bytes OK
+2026/03/31-18:40:53.444 d20 Delete type=0 #10
+2026/03/31-19:00:23.195 d20 Compacting 1@1 + 1@2 files
+2026/03/31-19:00:23.317 d20 Generated table #16@1: 44 keys, 56568 bytes
+2026/03/31-19:00:23.317 d20 Compacted 1@1 + 1@2 files => 56568 bytes
+2026/03/31-19:00:23.354 d20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/31-19:00:23.355 d20 Delete type=2 #13
+2026/03/31-19:00:23.355 d20 Delete type=2 #15
+2026/03/31-19:30:53.305 d1c Level-0 table #18: started
+2026/03/31-19:30:53.615 d1c Level-0 table #18: 776433 bytes OK
+2026/03/31-19:30:53.646 d1c Delete type=0 #14
+2026/03/31-19:50:53.892 d20 Compacting 1@1 + 1@2 files
+2026/03/31-19:50:54.066 d20 Generated table #19@1: 44 keys, 56913 bytes
+2026/03/31-19:50:54.067 d20 Compacted 1@1 + 1@2 files => 56913 bytes
+2026/03/31-19:50:54.137 d20 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/31-19:50:54.137 d20 Delete type=2 #16
+2026/03/31-19:50:54.137 d20 Delete type=2 #18

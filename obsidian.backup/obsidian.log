@@ -16,3 +16,7 @@
 2026-03-31 13:35:06 Loaded main app package /nix/store/zf6dqlg0hgxvi87kswkyn6d82s8qc5rg-obsidian-1.12.7/share/obsidian/obsidian.asar
 2026-03-31 13:35:57 Loaded main app package /nix/store/zf6dqlg0hgxvi87kswkyn6d82s8qc5rg-obsidian-1.12.7/share/obsidian/obsidian.asar
 2026-03-31 13:36:09 Loading updated app package /home/graff/.config/obsidian/obsidian-1.12.7.asar
+2026-03-31 14:20:11 Checking for update using Github
+2026-03-31 14:20:11 Success.
+2026-03-31 14:20:11 Latest version is 1.12.7
+2026-03-31 14:20:11 An update is already downloaded.

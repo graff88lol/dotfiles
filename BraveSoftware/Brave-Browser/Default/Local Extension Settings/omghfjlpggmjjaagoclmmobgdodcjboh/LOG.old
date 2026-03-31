@@ -1,3 +1,15 @@
-2026/03/31-15:10:39.816 ca4 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
-2026/03/31-15:10:39.816 ca4 Recovering log #4
-2026/03/31-15:10:39.898 ca4 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/000004.log 
+2026/03/31-15:17:19.318 c90 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
+2026/03/31-15:17:19.319 c90 Recovering log #4
+2026/03/31-15:17:19.320 c90 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/000004.log 
+2026/03/31-16:03:19.282 c92 Level-0 table #8: started
+2026/03/31-16:03:19.367 c92 Level-0 table #8: 784124 bytes OK
+2026/03/31-16:03:19.401 c92 Delete type=0 #4
+2026/03/31-16:09:19.306 c92 Compacting 1@1 + 1@2 files
+2026/03/31-16:09:19.397 c92 Generated table #9@1: 44 keys, 46084 bytes
+2026/03/31-16:09:19.397 c92 Compacted 1@1 + 1@2 files => 46084 bytes
+2026/03/31-16:09:19.432 c92 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/31-16:09:19.432 c92 Delete type=2 #8
+2026/03/31-16:09:19.432 c92 Delete type=2 #5
+2026/03/31-17:12:49.395 c92 Level-0 table #11: started
+2026/03/31-17:12:49.477 c92 Level-0 table #11: 744123 bytes OK
+2026/03/31-17:12:49.519 c92 Delete type=0 #7
