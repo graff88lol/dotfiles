@@ -1,0 +1,13 @@
+2026-03-31 13:37:15 Loading main app package /nix/store/5cms0daxplkzsrjpcn2g6ahfd7vrkal7-obsidian-1.10.3/share/obsidian/obsidian.asar
+2026-03-31 13:37:15 Checking for update using Github
+2026-03-31 13:37:17 Success.
+2026-03-31 13:37:17 Latest version is 1.12.7
+2026-03-31 13:37:17 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/obsidian-1.12.7.asar.gz
+2026-03-31 13:37:17 Verifying hash & signature. Size= 8323080
+2026-03-31 13:37:17 Saving file
+2026-03-31 13:37:17 Update complete.
+2026-03-31 13:43:53 Loading updated app package /home/graff/.config/obsidian/obsidian-1.12.7.asar
+2026-03-31 13:43:53 Checking for update using Github
+2026-03-31 13:43:53 Success.
+2026-03-31 13:43:53 Latest version is 1.12.7
+2026-03-31 13:43:53 App is up to date.
