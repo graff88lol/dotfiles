@@ -1,14 +1,14 @@
-2026/03/30-22:44:44.484 e16 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/03/30-22:44:44.484 e16 Recovering log #36
-2026/03/30-22:44:44.497 e16 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/000036.log 
-2026/03/30-22:44:44.497 e16 Delete type=2 #35
-2026/03/30-22:44:44.776 e21 Level-0 table #41: started
-2026/03/30-22:44:44.965 e21 Level-0 table #41: 1625 bytes OK
-2026/03/30-22:44:45.098 e21 Delete type=0 #36
-2026/03/30-22:44:45.098 e22 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 1307 : 1
-2026/03/30-22:44:45.098 e22 Compacting 1@0 + 1@1 files
-2026/03/30-22:44:45.145 e22 Generated table #42@0: 158 keys, 77214 bytes
-2026/03/30-22:44:45.146 e22 Compacted 1@0 + 1@1 files => 77214 bytes
-2026/03/30-22:44:45.235 e22 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/30-22:44:45.235 e22 Delete type=2 #41
-2026/03/30-22:44:45.236 e16 Manual compaction at level-0 from '\x00\x0d\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 1307 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/03/31-15:11:12.723 cb1 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/31-15:11:12.724 cb1 Recovering log #44
+2026/03/31-15:11:12.777 cb1 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/000044.log 
+2026/03/31-15:11:12.777 cb1 Delete type=2 #42
+2026/03/31-15:11:12.959 ca6 Level-0 table #49: started
+2026/03/31-15:11:13.036 ca6 Level-0 table #49: 4533 bytes OK
+2026/03/31-15:11:13.089 ca6 Delete type=0 #44
+2026/03/31-15:11:13.089 ca6 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x01\x02\x01\x17\x00_\x00_\x00a\x00p\x00p\x00l\x00o\x00g\x00_\x00d\x00e\x00g\x00r\x00a\x00d\x00e\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1556 : 1
+2026/03/31-15:11:13.089 ca6 Compacting 1@0 + 1@1 files
+2026/03/31-15:11:13.147 ca6 Generated table #50@0: 166 keys, 77367 bytes
+2026/03/31-15:11:13.147 ca6 Compacted 1@0 + 1@1 files => 77367 bytes
+2026/03/31-15:11:13.178 ca6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/31-15:11:13.178 ca6 Delete type=2 #49
+2026/03/31-15:11:13.179 ca6 Manual compaction at level-0 from '\x00\x0f\x01\x02\x01\x17\x00_\x00_\x00a\x00p\x00p\x00l\x00o\x00g\x00_\x00d\x00e\x00g\x00r\x00a\x00d\x00e\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1556 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)

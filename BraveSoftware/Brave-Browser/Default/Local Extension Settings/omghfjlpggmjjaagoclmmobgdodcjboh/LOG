@@ -1,2 +1,3 @@
-2026/03/30-23:10:08.375 5ef Creating DB /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh since it was missing.
-2026/03/30-23:10:08.532 5ef Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
+2026/03/31-15:17:19.318 c90 Reusing MANIFEST /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/MANIFEST-000001
+2026/03/31-15:17:19.319 c90 Recovering log #4
+2026/03/31-15:17:19.320 c90 Reusing old log /home/graff/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/omghfjlpggmjjaagoclmmobgdodcjboh/000004.log 
